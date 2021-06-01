@@ -7,7 +7,14 @@ export default new Vuex.Store({
   state: {
     xxoo:10
   },
-  mutations: {},
+  mutations: {
+	  jia(state){
+		  state.xxoo++
+	  },
+	  jian(state){
+		  state.xxoo--
+	  }
+  },
   actions: {},
   modules: {},
 });
