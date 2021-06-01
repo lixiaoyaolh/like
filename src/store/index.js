@@ -5,7 +5,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    xxoo:20
+    xxoo:50
   },
   mutations: {
 	  jia(state){
